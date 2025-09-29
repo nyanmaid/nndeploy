@@ -79,6 +79,7 @@ endif()
 
 if(ENABLE_NNDEPLOY_OPENCV AND ENABLE_NNDEPLOY_PLUGIN_DETECT)
   include(${ROOT_PATH}/demo/detect/config.cmake)
+  include(${ROOT_PATH}/demo/tensorrt_onnx_detector/config.cmake)
 endif()
 
 if(ENABLE_NNDEPLOY_OPENCV AND ENABLE_NNDEPLOY_PLUGIN_SEGMENT)
